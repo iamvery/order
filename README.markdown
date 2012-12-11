@@ -1,5 +1,6 @@
 # Order
 Convenient ActiveRecord ordering.
+https://github.com/iamvery/order
 
 ## Introduction
 
