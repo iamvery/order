@@ -1,0 +1,5 @@
+# Ignore simplecov generated files
+/coverage
+/doc
+/pkg
+.yardoc
