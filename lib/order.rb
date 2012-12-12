@@ -39,7 +39,8 @@ module Order
   # the +name+ is to be an alias for the ordering. You may also provide a block that defines a
   # custom ordering strategy.
   def order_scope(name, attribute = nil, &block)
-    scope "order_by_#{name}", lambda{ |direction = nil|
+    scope "order_by_#{name}", lambda{ |*arguments|
+      direction = arguments.first
       if block_given?
         yield normalize_direction(direction)
       else
