@@ -1,4 +1,4 @@
-# Order [![Build Status](https://travis-ci.org/iamvery/order.png?branch=master)](https://travis-ci.org/iamvery/order)
+# Order [![Build Status](https://secure.travis-ci.org/iamvery/order.png?branch=master)](https://travis-ci.org/iamvery/order)
 Convenient ActiveRecord ordering.
 https://github.com/iamvery/order
 
